@@ -8,7 +8,7 @@ def win(maze, screen, start, end, draw_cell_callback):
     visited = set([start])
 
     while buffer:
-        now = buffer[len(buffer) - 1]
+        now = buffer[-1]
         if now == end:
             break
         r, c = now
@@ -30,8 +30,8 @@ def win(maze, screen, start, end, draw_cell_callback):
             draw_cell_callback(maze, screen, now, blue)
             buffer.pop()
 
-        for i in range(len(buffer)):
-            draw_cell_callback(maze, screen, buffer[i], red)
+        for cell in buffer:
+            draw_cell_callback(maze, screen, cell, red)
             
         pygame.display.flip()
         pygame.time.delay(40)
