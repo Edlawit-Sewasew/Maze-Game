@@ -1,6 +1,6 @@
 # renderer.py
 import pygame
-from config impot black, Cell_length
+from config import black, Cell_length
 
 def draw_maze(maze, screen):
     for r in range(1, maze.Row + 1):
