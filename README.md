@@ -104,16 +104,6 @@ https://www.loom.com/share/52fcc8e952374b7a95c01fd94d74e78a
 
 ---
 
-## Future Improvements
-
-- Add keyboard controls
-- Add different maze generation algorithms
-- Add timer and score system
-- Allow user-selected maze sizes
-- Add shortest path visualization
-
----
-
 ## License
 
 This project is for educational purposes.
